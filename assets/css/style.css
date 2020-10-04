@@ -1,9 +1,10 @@
 body {
-    background-color: powderblue;
+    background-color: #666;
   }
   h1 {
-    color: blue;
+    color: #b5e853;
   }
   p {
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
     color: red;
   }
