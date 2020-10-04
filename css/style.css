@@ -1,3 +1,8 @@
 #main-header {
     background-color: #151515;
 }
+
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
