@@ -1,3 +1,9 @@
+
+.top-navigation-bar {
+    width: 500px;
+    align-self : right;
+}
+
 .main-header {
     color:#b5e853;
     margin-bottom:0;
