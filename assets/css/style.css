@@ -3,6 +3,7 @@ body {
   }
   h1 {
     color: #b5e853;
+    font-family: "Courier New", Courier, monospace;
     text-shadow: 0 1px 1px rgba(0,0,0,0.1),0 0 5px rgba(181,232,83,0.1),0 0 10px rgba(181,232,83,0.1);
   }
   p {
