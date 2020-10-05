@@ -45,7 +45,7 @@ a.nav-link:active
    padding-left: 0rem;
 }
 
-a.blog-link:link
+blog-link
 {
    color: rgba(255,255,255,.5);
    text-decoration: underline;
