@@ -40,3 +40,9 @@ a.nav-link:active
    color: rgba(255,255,255,.5);
    text-decoration: none;
 }
+
+a.nav-link blog-link:link
+{
+   color: rgba(255,255,255,.5);
+   text-decoration: underline;
+}
