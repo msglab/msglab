@@ -19,6 +19,10 @@
     /* height: 200px; */
     background: #aaa;
   }
+.blog-image {
+    padding: 100px;
+
+}
 
   a.nav-link:link
 {
