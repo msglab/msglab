@@ -1,7 +1,5 @@
 
-.top-navigation-bar {
-    /* width: 25vh; */
-}
+
 
 .main-header {
     color:#b5e853;
@@ -21,3 +19,24 @@
     /* height: 200px; */
     background: #aaa;
   }
+
+  a.nav-link:link
+{
+   color: #fb3f00;
+   text-decoration: none;
+}
+a.nav-link:visited
+{
+   color: #fb3f00;
+   text-decoration: none;
+}
+a.nav-link:hover
+{
+   color: #fb3f00;
+   text-decoration: none;
+}
+a.nav-link:active
+{
+   color: #fb3f00;
+   text-decoration: none;
+}
