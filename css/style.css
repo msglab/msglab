@@ -45,8 +45,11 @@ a.nav-link:active
    padding-left: 0rem;
 }
 
-a.nav-link blog-link:link
+a.blog-link:link
 {
    color: rgba(255,255,255,.5);
    text-decoration: underline;
 }
+
+
+
