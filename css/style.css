@@ -15,13 +15,17 @@
     font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
 
+.top-navigation-bar nav.navbar.navbar-expand-sm.bg-dark.navbar-dark.fixed-top {
+   height: 50px;
+}
+
+
 .main-page-img {
     /* height: 200px; */
     background: #aaa;
   }
 .blog-image {
     padding: 100px;
-
 }
 
   a.nav-link:link
