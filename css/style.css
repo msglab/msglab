@@ -10,7 +10,7 @@ body {
    background-color: #151515;
 }
 
-/*   a.nav-link:link
+  a.nav-link:link
 {
    color: rgba(255,255,255,.5);
    text-decoration: none;
@@ -57,4 +57,4 @@ a.blog-link:active
    color: rgba(255,255,255,.5);
    text-decoration: none;
    padding-left: 0rem;
-} */
+}
