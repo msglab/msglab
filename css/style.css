@@ -60,3 +60,9 @@ a.blog-link:active
    text-decoration: none;
    padding-left: 0rem;
 }
+
+
+.jumbotron {
+   background-color: #f4511e; /* Orange */
+   color: #ffffff;
+ }
