@@ -5,7 +5,10 @@
    padding-bottom: 15px;
 }
 
-body { padding-top: 70px; }
+body {
+   padding-top: 70px;
+   background-color: #151515;
+}
 
 /*   a.nav-link:link
 {
