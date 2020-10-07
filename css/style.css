@@ -25,7 +25,8 @@
     background: #aaa;
   }
 .blog-image {
-    padding: 100px;
+   width:"340";
+   height:"255";
 }
 
   a.nav-link:link
