@@ -27,6 +27,7 @@
 .blog-image {
    width: 510px;
    height: 382.5px;
+   padding-bottom: 15px;
 }
 
   a.nav-link:link
