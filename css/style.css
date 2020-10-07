@@ -5,6 +5,8 @@
    padding-bottom: 15px;
 }
 
+body { padding-top: 70px; }
+
   a.nav-link:link
 {
    color: rgba(255,255,255,.5);
