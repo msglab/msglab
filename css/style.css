@@ -1,19 +1,4 @@
 
-
-
-body {
-   padding-top: 0px;
- }
- @media (max-width: 979px) {
-   body {
-     padding-top: 0px;
-   }
- }
-
-.main-page-img {
-    /* height: 200px; */
-    background: #aaa;
-  }
 .blog-image {
    width: 510px;
    height: 382.5px;
