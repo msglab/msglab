@@ -24,10 +24,8 @@ h4 {
 .blog-image {
   padding-bottom: 30px;
   display: block;
-  max-width: 1020px;
-  max-height: 765px;
-  width: auto;
-  height: auto;
+  max-width: 765px;
+  max-height: 573.75px;
   margin-left: auto;
   margin-right: auto;
 }
