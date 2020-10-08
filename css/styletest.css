@@ -20,6 +20,12 @@ h4 {
   margin-bottom: 30px;
 }
 
+.blog-image {
+  width: 510px;
+  height: 382.5px;
+  padding-bottom: 15px;
+}
+
 a.blog-link:link
 {
    color: rgba(255,255,255,.5);
