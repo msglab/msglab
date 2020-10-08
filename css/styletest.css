@@ -22,10 +22,14 @@ h4 {
 }
 
 .blog-image {
+  padding-bottom: 30px;
+  display: block;
   max-width: 1020px;
   max-height: 765px;
   width: auto;
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a.blog-link:link
