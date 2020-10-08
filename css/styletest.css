@@ -55,6 +55,7 @@ a.blog-link:active
   color: #fff;
   padding: 5px 5px;
   font-family: "Monaco, Bitstream Vera Sans Mono, Lucida Console", Terminal, monospace;
+  margin-top: 50px;
   /* height: 60px; */
 }
 .container-fluid {
