@@ -1,5 +1,6 @@
 body {
-  font: 400 15px Lato, sans-serif;
+  font: 400 15px;
+  font-family: "Monaco, Bitstream Vera Sans Mono, Lucida Console", Terminal, monospace;
   line-height: 1.8;
   color: #818181;
   background-color: #151515
@@ -19,11 +20,11 @@ h4 {
   margin-bottom: 30px;
 }  
 .jumbotron {
-/*   background-color: #f4511e; */
+  background-color: #151515;
   color: #fff;
   padding: 100px 25px;
   font-family: "Monaco, Bitstream Vera Sans Mono, Lucida Console", Terminal, monospace;
-  height: 60px;
+  /* height: 60px; */
 }
 .container-fluid {
   padding: 60px 50px;
@@ -116,7 +117,7 @@ h4 {
   line-height: 1.42857143 !important;
   letter-spacing: 4px;
   border-radius: 0;
-  font-family: Montserrat, sans-serif;
+  font-family: "Monaco, Bitstream Vera Sans Mono, Lucida Console", Terminal, monospace;
 }
 .navbar li a, .navbar .navbar-brand {
   color: #fff !important;
