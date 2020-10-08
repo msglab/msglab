@@ -18,7 +18,32 @@ h4 {
   color: #303030;
   font-weight: 400;
   margin-bottom: 30px;
-}  
+}
+
+a.blog-link:link
+{
+   color: rgba(255,255,255,.5);
+   text-decoration: none;
+}
+a.blog-link:visited
+{
+   color: rgba(255,255,255,.5);
+   text-decoration: none;
+   padding-left: 0rem;
+}
+a.blog-link:hover
+{
+   color: rgba(255,255,255,.5)00;
+   text-decoration: none;
+   padding-left: 0rem;
+}
+a.blog-link:active
+{
+   color: rgba(255,255,255,.5);
+   text-decoration: none;
+   padding-left: 0rem;
+}
+
 .jumbotron {
   background-color: #151515;
   color: #fff;
