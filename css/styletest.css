@@ -59,10 +59,10 @@ a.blog-link:active
 .jumbotron {
   background-color: #151515;
   color: #fff;
-  padding: 5px 5px;
-/*   font-family: "Monaco, Bitstream Vera Sans Mono, Lucida Console", Terminal, monospace; */
+  padding-top: 5px;
+  padding-bottom: 0px;
+  margin-bottom: -10px;
   margin-top: 50px;
-  /* height: 60px; */
 }
 .container-fluid {
   padding-top: 60px;
