@@ -1,0 +1,59 @@
+
+body {
+      background-color: #151515;
+}
+
+
+.blog-image {
+   width: 510px;
+   height: 382.5px;
+   padding-bottom: 15px;
+}
+  a.nav-link:link
+{
+   color: rgba(255,255,255,.5);
+   text-decoration: none;
+   padding-left: 0rem;
+}
+a.nav-link:visited
+{
+   color: rgba(255,255,255,.5);
+   text-decoration: none;
+   padding-left: 0rem;
+}
+a.nav-link:hover
+{
+   color: rgba(255,255,255,.5)00;
+   text-decoration: none;
+   padding-left: 0rem;
+}
+a.nav-link:active
+{
+   color: rgba(255,255,255,.5);
+   text-decoration: none;
+   padding-left: 0rem;
+}
+
+a.blog-link:link
+{
+   color: rgba(255,255,255,.5);
+   text-decoration: none;
+}
+a.blog-link:visited
+{
+   color: rgba(255,255,255,.5);
+   text-decoration: none;
+   padding-left: 0rem;
+}
+a.blog-link:hover
+{
+   color: rgba(255,255,255,.5)00;
+   text-decoration: none;
+   padding-left: 0rem;
+}
+a.blog-link:active
+{
+   color: rgba(255,255,255,.5);
+   text-decoration: none;
+   padding-left: 0rem;
+}
