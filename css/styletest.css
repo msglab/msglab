@@ -53,7 +53,7 @@ a.blog-link:active
 .jumbotron {
   background-color: #151515;
   color: #fff;
-  padding: 100px 25px;
+  padding: 5px 5px;
   font-family: "Monaco, Bitstream Vera Sans Mono, Lucida Console", Terminal, monospace;
   /* height: 60px; */
 }
