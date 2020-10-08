@@ -1,9 +1,10 @@
 body {
-  font: 400 15px;
+  font-size: 18px;
   font-family: "Monaco", "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  line-height: 1.8;
+  line-height: 1;
   color: #818181;
-  background-color: #151515
+  background-color: #151515;
+  text-align: justify;
 }
 h2 {
   font-size: 24px;
