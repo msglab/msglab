@@ -16,7 +16,7 @@
 
 </head>
 
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<body id="msgPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
@@ -31,7 +31,7 @@
 
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-left">
-          <li><a href="#msg-header" class="nav-link">msg</a></li>
+          <li><a href="#msgPage" class="nav-link">msg</a></li>
           <li><a href="/html/other.html">other projects</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
@@ -44,12 +44,10 @@
       </div>
     </div>
   </nav>
-  <div id="msg-header">
     <div class="jumbotron text-center">
       <h1>msg</h1>
       <p>A viable DIY computer for coding, playing, hacking, testing and learning about electronics</p>
     </div>
-  </div>
 
   <div id="background" class="container-fluid text-center bg-grey">
     <h2>Background</h2><br>
@@ -183,7 +181,7 @@
     </div>
 
     <footer class="container-fluid text-center">
-      <a href="#myPage" title="To Top">
+      <a href="#msgPage" title="To Top">
         <span class="glyphicon glyphicon-chevron-up"></span>
       </a>
     </footer>
@@ -191,7 +189,7 @@
     <script>
       $(document).ready(function () {
         // Add smooth scrolling to all links in navbar + footer link
-        $(".navbar a, footer a[href='#myPage']").on('click', function (event) {
+        $(".navbar a, footer a[href='#msgPage']").on('click', function (event) {
           // Make sure this.hash has a value before overriding default behavior
           if (this.hash !== "") {
             // Prevent default anchor click behavior
