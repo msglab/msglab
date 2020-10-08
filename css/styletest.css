@@ -22,7 +22,7 @@ h4 {
 /*   background-color: #f4511e; */
   color: #fff;
   padding: 100px 25px;
-  font-family: "Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, monospace";
+  font-family: "Monaco, Bitstream Vera Sans Mono, Lucida Console", Terminal, monospace;
   height: 60px;
 }
 .container-fluid {
