@@ -3,7 +3,7 @@ body {
   font-family: "Monaco", "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   line-height: 1;
   color: #fff;
-  background-color: #151515;
+  background-color: #333333;
   text-align: justify;
 }
 h2 {
@@ -75,7 +75,7 @@ a.blog-link:active
 }
 
 .jumbotron {
-  background-color: #151515;
+  /* background-color: #151515; */
   padding-top: 70px;
   padding-bottom: 0px;
   margin-bottom: -10px;
@@ -91,11 +91,11 @@ a.blog-link:active
   /* background-color: #f6f6f6; */
 }
 .logo-small {
-  color: #151515;
+/*   color: #151515; */
   font-size: 50px;
 }
 .logo {
-  color: #151515;
+ /*  color: #151515; */
   font-size: 200px;
 }
 .thumbnail {
