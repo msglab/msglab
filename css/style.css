@@ -178,9 +178,9 @@ a.blog-link:active
   border-radius: 0;
   font-family: "Monaco, Bitstream Vera Sans Mono, Lucida Console", Terminal, monospace;
 }
-.navbar li a, .navbar .navbar-brand {
+/* .navbar li a, .navbar .navbar-brand {
   color: #fff !important;
-}
+} */
 .navbar-nav li a:hover, .navbar-nav li.active a {
   color: #151515 !important;
   background-color: #fff !important;
