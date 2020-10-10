@@ -8,221 +8,208 @@
   <link rel="icon" href="/img/tab_logo.png">
 
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
-  <!--  <link rel="stylesheet" href="/css/bootstrap.css"> -->
-
+  <link rel="stylesheet" href="/css/bootstrap.css">
   <script src="/js/jquery-3.5.1.min.js"></script>
-  <!--   <script src="/js/bootstrap.js"></script>
- -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="/js/bootstrap.js"></script>
   <link rel="stylesheet" href="/css/style.css">
 
 </head>
 
-<body id="msgPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<body id="msgPage" data-spy="scroll" data-target=".navbar" data-offset="50" style="
+    min-height: 75rem;
+    padding-top: 4.5rem;">
 
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="/index.html">msg lab</a>
-      </div>
+  <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="/index.html">msg lab</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#msgPage">msg<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/html/tools.html">tools</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/html/skunkW.html">skunkW</a>
+        </li>
 
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav navbar-left">
-          <li class="active"><a href="#msgPage" style="padding-left: 15px; margin-right: 15px;">msg</a></li>
-          <li><a href="/html/tools.html" class="nav-link">tools</a></li>
-          <li><a href="/html/skunkW.html" class="nav-link">skunkW</a></li>
-          <li><a href="#">|</a></li>
-          <li><a href="#background">Background</a></li>
-          <li><a href="#build">Build</a></li>
-          <li><a href="#parts">Parts</a></li>
-          <li><a href="#software">Software</a></li>
-        </ul>
-      </div>
+        <li><a class="nav-link disabled nav-item" href="#" tabindex="-1" aria-disabled="true"></a> | </a></li>
+        <li><a class="nav-link nav-item" href="#background">background</a></li>
+        <li><a class="nav-link nav-item" href="#build">build</a></li>
+        <li><a class="nav-link nav-item" href="#parts">parts</a></li>
+        <li><a class="nav-link nav-item" href="#software">software</a></li>
+      </ul>
     </div>
   </nav>
-  <!--   <div class="jumbotron text-center">
-    <h1>msg</h1>
-    <p>A viable DIY computer for coding, playing, hacking, testing and learning about electronics</p>
-  </div> -->
 
-  <div id="background" class="container-fluid text-left bg-grey">
-    <h2>Background</h2><br>
-    <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
-        <img src="/img/top.jpeg" class="
-          img-rounded
-          img-responsive
+  <main role="main" class="container">
+
+    <div id="background" class="container-fluid text-left bg-grey" style="padding-top:60px">
+      <h2>Background</h2><br>
+      <div class="row">
+        <div class="col-sm-12">
+          <img src="/img/top.jpeg" class="
+          rounded
+          img-fluid
           mx-auto d-block" style="margin-bottom: 25px;" alt="top shot of msg">
+        </div>
       </div>
-      <div class="col-sm-1"></div>
-    </div>
-    <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10 align-items-center">
-        On one of the rabbit holes of the internet I run into the <a href=" https://www.cyberdeck.cafe/virtuscope"
-          target="_blank" class="blog-link">Virtuscope</a>, a 3D printed cyberdeck. I really liked the idea and
-        impulsively I started to work on
-        recreating it. Soon after starting I realized that I was lacking many of the tools and skills necessary to build
-        something like it.<br><br>
-        My first attempt at building and modding it is documented in a <a
-          href="https://www.cyberdeck.cafe/msg-virtuscope" target="_blank" class="blog-link">blog</a> post I posted
-        in the cyberdeck caf&eacute; site, The main findings were that a purely raspberry pi-based system wouldn&rsquo;t
-        be able to run the software
-        I wanted for a viable daily driver computer and that to fit the hardware I had in mind, there would need to be a
-        significant number of design changes.
-        <br>
+      <div class="row">
+        <div class="col-sm-12 align-items-center">
+          On one of the rabbit holes of the internet I run into the <a href=" https://www.cyberdeck.cafe/virtuscope"
+            target="_blank" class="blog-link">Virtuscope</a>, a 3D printed cyberdeck. I really liked the idea and
+          impulsively I started to work on
+          recreating it. Soon after starting I realized that I was lacking many of the tools and skills necessary to
+          build
+          something like it.<br><br>
+          My first attempt at building and modding it is documented in a <a
+            href="https://www.cyberdeck.cafe/msg-virtuscope" target="_blank" class="blog-link">blog</a> post I posted
+          in the cyberdeck caf&eacute; site, The main findings were that a purely raspberry pi-based system
+          wouldn&rsquo;t
+          be able to run the software
+          I wanted for a viable daily driver computer and that to fit the hardware I had in mind, there would need to
+          be
+          a
+          significant number of design changes.
+          <br>
+        </div>
       </div>
-      <div class="col-sm-1"></div>
     </div>
-  </div>
 
-  <div id="build" class="container-fluid text-left bg-grey">
-    <h2>Build</h2>
-    <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
-        <img src="/img/exp bay.jpeg" class="
-          img-rounded
-          img-responsive
+    <div id="build" class="container-fluid text-left bg-grey" style="padding-top:60px">
+      <h2>Build</h2>
+      <div class="row">
+        <div class="col-sm-12">
+          <img src="/img/exp bay.jpeg" class="
+          rounded
+          img-fluid
           mx-auto d-block" style=" margin-bottom: 25px;" alt="exp bay shot of msg">
+        </div>
       </div>
-      <div class="col-sm-1"></div>
-    </div>
-    <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10 align-items-center">
-        The current build includes an i7 NUC on the left and a raspberry pi 4 on the right. The raspberry pi is able
-        to run on the go thanks to a couple of 3.6mAh 18650.<br><br>
-        The front has the keyboard and under it there is a KVM switch that allows the msg to share the screen,
-        keyboard and a usb plug between both systems, for a seamless transition.<br><br>
-        The screen is a 7inch touchscreen, leaving some space to the right of it that I used to add an eInk
-        display, breakout board and a Pimoroni micro dot phat.
-        <br>
+      <div class="row">
+        <div class="col-sm-12 align-items-center">
+          The current build includes an i7 NUC on the left and a raspberry pi 4 on the right. The raspberry pi is able
+          to run on the go thanks to a couple of 3.6mAh 18650.<br><br>
+          The front has the keyboard and under it there is a KVM switch that allows the msg to share the screen,
+          keyboard and a usb plug between both systems, for a seamless transition.<br><br>
+          The screen is a 7inch touchscreen, leaving some space to the right of it that I used to add an eInk
+          display, breakout board and a Pimoroni micro dot phat.
+          <br>
+        </div>
       </div>
-      <div class="col-sm-1"></div>
     </div>
-  </div>
 
-  <div id="parts" class="container-fluid text-left bg-grey">
-    <h2> Parts</h2>
-    <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
-        <img src="/img/front.jpeg" class="
-          img-rounded
-          img-responsive" style=" margin-bottom: 25px;" alt="front shot of msg">
+    <div id="parts" class="container-fluid text-left bg-grey" style="padding-top:60px">
+      <h2> Parts</h2>
+      <div class="row">
+        <div class="col-sm-12">
+          <img src="/img/front.jpeg" class="
+          rounded
+          img-fluid
+          mx-auto d-block" style=" margin-bottom: 25px;" alt="front shot of msg">
+        </div>
       </div>
-      <div class="col-sm-1"></div>
-    </div>
-    <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10 align-items-center">
-        I used a lot of parts, I will try to be as complete as possible in this list, but many choices were made
-        to
-        use stuff I had at hand, and better options may be available out there.<br>
-        &nbsp;<br>
-        <p>Main Components:</p>
+      <div class="row">
+        <div class="col-sm-12 align-items-center">
+          I used a lot of parts, I will try to be as complete as possible in this list, but many choices were made
+          to
+          use stuff I had at hand, and better options may be available out there.<br>
+          &nbsp;<br>
+          <p>Main Components:</p>
 
-        <p><a href="https://amzn.to/2HYAgUh" class="blog-link">7 Inch screen</a></p>
-        <p><a href="https://amzn.to/3nxX3Xh" class="blog-link">1ft HDMI cable for the screen</a></p>
-        <p><a href="https://www.aliexpress.com/item/32789351190.html?spm=a2g0s.9042311.0.0.27424c4d0mkncQ"
-            class="blog-link">16MM push button for RPI</a></p>
-        <p><a href="https://amzn.to/3nq7igm" class="blog-link">6 inch HDMI Cable for NUC</a></p>
-        <p><a href="https://amzn.to/3iJcXL9" class="blog-link">16mm push button for SWX</a></p>
-        <p><a href="https://amzn.to/34CG11H" class="blog-link">40mm 5v fan</a></p>
-        <p><a href="https://amzn.to/3jMlPkc" class="blog-link">2 port kvm switch</a></p>
-        <p><a href="https://zealpc.net/collections/switches/products/aqua-zilents" class="blog-link">zilent switches</a>
-        </p>
-        <p><a href="https://amzn.to/3jLKSEc" class="blog-link">2.13 inch eInk screen</a></p>
-        <p><a href="https://amzn.to/2SIgoXS" class="blog-link">x728 18650 ups</a></p>
-        <p><a href="https://www.imrbatteries.com/samsung-36g-18650-3600mah-10a-battery/" class="blog-link">18650
-            batteries (2x)</a></p>
-        <p><a href="https://amzn.to/2STrGst" class="blog-link">hdmi cable for taspberry pi</a></p>
-        <p><a href="https://amzn.to/2SJYOT2" class="blog-link">raspberry pi 4</a></p>
-        <p><a href="https://amzn.to/2SFvgGl" class="blog-link">nuc (sleek chassis)</a></p>
-        <p><a href="https://olkb.com/collections/planck" class="blog-link">planck keyboard</a></p>
-        <p><a href="https://shop.pimoroni.com/products/sparkfun-usb-type-a-female-breakout" class="blog-link">usb female
-            jack</a></p>
-        <p><a href="https://shop.pimoroni.com/products/pico-hat-hacker" class="blog-link">pico hat hacker</a></p>
-        <p><a href="https://shop.pimoroni.com/products/mini-black-hat-hack3r?variant=19448026055"
-            class="blog-link">https://pimpmykeyboard.com/all-products/</a></p>
-        <p><a href="https://shop.pimoroni.com/products/hat-hacker-hat" class="blog-link">hat hacker hat</a></p>
-        <p><a href="https://shop.pimoroni.com/products/microdot-phat?variant=25454635591" class="blog-link">micro dot
-            phat</a></p>
-        <p><a href="https://amzn.to/2SK0sUI" class="blog-link">female usb panel mount</a></p>
-        <p><a href="https://amzn.to/3ny5JwS" class="blog-link">hook for strap</a></p>
-        <p><a href="https://amzn.to/3lyL5uH" class="blog-link">Dd-ring for strap</a></p>
-        <p><a href="https://amzn.to/3lteo1L" class="blog-link">paracord for usb cable</a></p>
-        <p><a href="https://amzn.to/3iMh4pu" class="blog-link">pla for accents</a></p>
-        <p><a href="https://amzn.to/3nyd3J4" class="blog-link">pla for main parts</a></p>
-        <p><a href="https://www.retrocution.com/product/tiny-usb-hub-4-port/" class="blog-link">usb hub</a></p>
-        <p><a href="https://amzn.to/3jE6p1v" class="blog-link">90 degree angle for power cord</a></p>
-        </p>
+          <p><a href="https://amzn.to/2SFvgGl" class="blog-link">nuc (sleek chassis)</a></p>
+          <p><a href="https://amzn.to/2SJYOT2" class="blog-link">raspberry pi 4</a></p>
+          <p><a href="https://olkb.com/collections/planck" class="blog-link">planck keyboard</a></p>
+          <p><a href="https://amzn.to/2SIgoXS" class="blog-link">x728 18650 ups</a></p>
+          <p><a href="https://amzn.to/2HYAgUh" class="blog-link">7 Inch screen</a></p>
+          <p><a href="https://amzn.to/3jMlPkc" class="blog-link">2 port kvm switch</a></p>
+          <p><a href="https://www.imrbatteries.com/samsung-36g-18650-3600mah-10a-battery/" class="blog-link">18650
+              batteries (2x)</a></p>
+          <p><a href="https://shop.pimoroni.com/products/microdot-phat?variant=25454635591" class="blog-link">micro dot
+              phat</a></p>
+          <p><a href="https://www.retrocution.com/product/tiny-usb-hub-4-port/" class="blog-link">usb hub</a></p>
+          <p><a href="https://zealpc.net/collections/switches/products/aqua-zilents" class="blog-link">zilent
+              switches</a></p>
+          <p><a href="https://amzn.to/3nyd3J4" class="blog-link">pla for main parts</a></p>
+          <p><a href="https://amzn.to/3iMh4pu" class="blog-link">pla for accents</a></p>
+          <p><a href="https://shop.pimoroni.com/products/mini-black-hat-hack3r?variant=19448026055"
+              class="blog-link">Dd-ring for strap</a></p>
+          <p><a href="https://shop.pimoroni.com/products/hat-hacker-hat" class="blog-link">hat hacker hat</a></p>
+          <p><a href="https://amzn.to/3lteo1L" class="blog-link">paracord for usb cable</a></p>
+          <p><a href="https://amzn.to/2SK0sUI" class="blog-link">female usb panel mount</a></p>
+          <p><a href="https://amzn.to/3ny5JwS" class="blog-link">hook for strap</a></p>
+          <p><a href="https://amzn.to/3jLKSEc" class="blog-link">2.13 inch eInk screen</a></p>
+          <p><a href="https://shop.pimoroni.com/products/pico-hat-hacker" class="blog-link">pico hat hacker</a></p>
+          <p><a href="https://amzn.to/3nq7igm" class="blog-link">6 inch HDMI Cable for NUC</a></p>
+          <p><a href="https://amzn.to/3iJcXL9" class="blog-link">16mm push button for SWX</a></p>
+          <p><a href="https://amzn.to/34CG11H" class="blog-link">40mm 5v fan</a></p>
+          <p><a href="https://amzn.to/2STrGst" class="blog-link">hdmi cable for taspberry pi</a></p>
+          <p><a href="https://shop.pimoroni.com/products/sparkfun-usb-type-a-female-breakout" class="blog-link">usb
+              female jack</a></p>
+          <p><a href="https://www.aliexpress.com/item/32789351190.html?spm=a2g0s.9042311.0.0.27424c4d0mkncQ"
+              class="blog-link">16MM push button for RPI</a></p>
+          <p><a href="https://amzn.to/3nxX3Xh" class="blog-link">1ft HDMI cable for the screen</a></p>
+          <p><a href="https://amzn.to/3lyL5uH" class="blog-link">Dd-ring for strap</a></p>
+          <p><a href="https://amzn.to/3jE6p1v" class="blog-link">90 degree angle for power cord</a></p>
 
-        <p>&nbsp;</p>
-        <p>Screws &amp; Co:</p>
 
-        <p><a href="https://amzn.to/3llGHPL" class="blog-link">short m3 screws 10mm are the most used here</a></p>
-        <p><a href="https://amzn.to/2SxJPvx" class="blog-link">long m3 screws for the hinge</a></p>
-        <p><a href="https://amzn.to/2SvVTNJ" class="blog-link">Nylon washers for the hinge</a></p>
-        <p><a href="https://amzn.to/36LX04v" class="blog-link">5.5 x 2.5 mm barrel jack for power input</a></p>
-        <p><a href="https://amzn.to/2I1yQZd" class="blog-link">26 awg hook up wire</a></p>
-        <p><a href="https://amzn.to/3d7dtBl" class="blog-link">m3 heat inserts</a></p>
-        <p><a href="https://amzn.to/2SxmrhF" class="blog-link">m2.5 heat inserts</a></p>
-        <p><a href="https://amzn.to/2I1A4DN" class="blog-link">4pin connector for USB internal wiring</a></p>
-        <p><a href="https://amzn.to/3nw1FNQ" class="blog-link">jst-ph 2.0 connectors for wiring</a></p>
-        <p><a href="https://amzn.to/2SGIYc5" class="blog-link">3:1 heat shrink with glue</a></p>
-        <p><a href="https://amzn.to/2GTSrKc" class="blog-link">micro usb male connectors</a></p>
-        <p><a href="https://amzn.to/33K6r2u" class="blog-link">usb male connectors</a></p>
+          <p>&nbsp;</p>
+          <p>Screws &amp; Co:</p>
 
+          <p><a href="https://amzn.to/3llGHPL" class="blog-link">short m3 screws 10mm are the most used here</a></p>
+          <p><a href="https://amzn.to/2SxJPvx" class="blog-link">long m3 screws for the hinge</a></p>
+          <p><a href="https://amzn.to/2SvVTNJ" class="blog-link">Nylon washers for the hinge</a></p>
+          <p><a href="https://amzn.to/36LX04v" class="blog-link">5.5 x 2.5 mm barrel jack for power input</a></p>
+          <p><a href="https://amzn.to/2I1yQZd" class="blog-link">26 awg hook up wire</a></p>
+          <p><a href="https://amzn.to/3d7dtBl" class="blog-link">m3 heat inserts</a></p>
+          <p><a href="https://amzn.to/2SxmrhF" class="blog-link">m2.5 heat inserts</a></p>
+          <p><a href="https://amzn.to/2I1A4DN" class="blog-link">4pin connector for USB internal wiring</a></p>
+          <p><a href="https://amzn.to/3nw1FNQ" class="blog-link">jst-ph 2.0 connectors for wiring</a></p>
+          <p><a href="https://amzn.to/2SGIYc5" class="blog-link">3:1 heat shrink with glue</a></p>
+          <p><a href="https://amzn.to/2GTSrKc" class="blog-link">micro usb male connectors</a></p>
+          <p><a href="https://amzn.to/33K6r2u" class="blog-link">usb male connectors</a></p>
+
+        </div>
       </div>
-      <div class="col-sm-1"></div>
     </div>
-  </div>
 
-  <div id="software" class="container-fluid text-left bg-grey">
-    <h2>SoftWare</h2>
-    <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
-        <img src="/img/left.jpeg" class="
-            img-rounded
-            img-responsive" style=" margin-bottom: 25px;" alt="left shot of msg">
+    <div id="software" class="container-fluid text-left bg-grey" style="padding-top:60px">
+      <h2>Software</h2>
+      <div class="row">
+        <div class="col-sm-12">
+          <img src="/img/left.jpeg" class="
+          rounded
+          img-fluid
+          mx-auto d-block" style=" margin-bottom: 25px;" alt="left shot of msg">
+        </div>
       </div>
-      <div class="col-sm-1"></div>
-    </div>
-    <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10 align-items-center">
-        This website is being held in github, I will share here links to the files I used for the deck.<br><br>
-        Python script used for the eInk. I may add a how to to make it load on startup.<br><br>
-        The stl files for this built can be found on Thingiverse. I started the design in TinkedCard and later
-        moved it to Fusion 360, where the majority of work was done<br><br>
-        <a href="https://www.thingiverse.com/thing:4617003" target="_blank" class="blog-link">3D STL
-          Files</a>
-        <br><br>
-        <br>
+      <div class="row">
+        <div class="col-sm-12 align-items-center">
+          This website is being hosted at github, so i will leverage it to share here links to the files I used for the
+          deck.<br><br>
+          Python script used for the eInk. I may add a how to to make it load on startup.<br><br>
+          The stl files for this built can be found on Thingiverse. I started the design in TinkedCard and later
+          moved it to Fusion 360, where the majority of work was done<br><br>
+          <a href="https://www.thingiverse.com/thing:4617003" target="_blank" class="blog-link">3D STL
+            Files</a>
+          <br><br>
+          <br>
+        </div>
       </div>
-      <div class="col-sm-1"></div>
     </div>
-  </div>
 
-  <footer class="container-fluid text-left">
-    <a href="#msgPage" title="To Top">
-      <span class="glyphicon glyphicon-chevron-up"></span>
-    </a>
-  </footer>
 
+    <footer class="container-fluid text-left">
+      <a href="background" title="To Top">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+      </a>
+    </footer>
+  </main>
   <script>
     $(document).ready(function () {
       // Add smooth scrolling to all links in navbar + footer link

@@ -16,56 +16,65 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="/img/tab_logo.png">
-  <!--   <link rel="stylesheet" href="/css/bootstrap.min.css">
- -->
+
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <script src="/js/jquery-3.5.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="/js/bootstrap.js"></script>
   <link rel="stylesheet" href="/css/style.css">
 
 </head>
 
-<body id="indexPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="active-page navbar-brand" href="#">msg lab</a>
-      </div>
+<body id="msgPage" data-spy="scroll" data-target=".navbar" data-offset="50" style="
+    min-height: 75rem;
+    padding-top: 4.5rem;">
 
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav navbar-left">
-          <li><a href="/html/msg.html" class="nav-link" style="padding-left: 15px;">msg</a></li>
-          <li><a href="/html/tools.html" class="nav-link">tools</a></li>
-          <li><a href="/html/skunkW.html" class="nav-link">skunkW</a></li>
-      </div>
+  <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="/index.html">msg lab</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#msgPage">msg<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/html/tools.html">tools</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/html/skunkW.html">skunkW</a>
+        </li>
+      </ul>
     </div>
   </nav>
-  <!--   <div class="jumbotron text-center">
-    <h1>msg lab</h1>
-    <p>A place to showcase updates regarding the cyberdeck I am putting together</p>
-  </div> -->
-  <div id="main-page-text" class="container-fluid gb-grey">
-    <div class="row">
-      <div class="col-sm-8">
-        <a href="/html/msg.html">
-          <img src="/img/top.jpeg" class=" img-rounded
-            img-responsive" alt="top shot of msg" style="padding-bottom: 15px;">
-        </a>
+
+
+  <main role="main" class="container">
+
+    <div id="background" class="container-fluid text-left bg-grey" style="padding-top:60px">
+      <h2>Background</h2><br>
+      <div class="row">
+        <div class="col-sm-12">
+          <img src="/img/top.jpeg" class="
+          rounded
+          img-fluid
+          mx-auto d-block" style="margin-bottom: 25px;" alt="top shot of msg">
+        </div>
       </div>
-      <div class="col-sm-4">
-        <h2><a href="/html/msg.html" class="nav-link">msg</a></h2>
-        <h4>a viable daily driver cyberdeck</h4>
-        This site aims at containing everything you would need if you were to build your own msg.<br><br>
+      <div class="row">
+        <div class="col-sm-12 align-items-center">
+          <h2><a href="/html/msg.html" class="nav-link">msg</a></h2>
+          <h4>a viable daily driver cyberdeck</h4>
+          This site aims at containing everything you would need if you were to build your own msg.<br><br>
+          <br>
+        </div>
       </div>
     </div>
-  </div>
 
+  </main>
 
   <footer class="container-fluid text-center">
     <a href="#indexPage" title="To Top">
