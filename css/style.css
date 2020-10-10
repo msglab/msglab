@@ -28,49 +28,49 @@ h4 {
 
 a.nav-link:link
 {
-   color: white;
+   color: #414253;
    text-decoration: none;
    padding-left: 0rem;
 }
 a.nav-link:visited
 {
-   color: white;
+   color: #414253;
    text-decoration: none;
    padding-left: 0rem;
 }
 a.nav-link:hover
 {
-   color: white;
+   color: #414253;
    text-decoration: none;
    padding-left: 0rem;
 }
 a.nav-link:active
 {
-   color: white;
+   color: #414253;
    text-decoration: none;
    padding-left: 0rem;
 }
 
 a.blog-link:link
 {
-   color: white;
+   color: #414253;
    text-decoration: none;
 }
 a.blog-link:visited
 {
-   color: white;
+   color: #414253;
    text-decoration: none;
    padding-left: 0rem;
 }
 a.blog-link:hover
 {
-   color: white;
+   color: #414253;
    text-decoration: none;
    padding-left: 0rem;
 }
 a.blog-link:active
 {
-   color: white;
+   color: #414253;
    text-decoration: none;
    padding-left: 0rem;
 }
@@ -153,7 +153,7 @@ a.blog-link:active
   border-bottom-right-radius: 0px;
 }
 .panel-footer {
-  background-color: white !important;
+  background-color:#414253 !important;
 }
 .panel-footer h3 {
   font-size: 32px;
