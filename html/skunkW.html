@@ -6,6 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="/img/tab_logo.png">
+
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/bootstrap.css">
   <script src="/js/jquery-3.5.1.min.js"></script>
@@ -15,53 +16,48 @@
 
 </head>
 
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<body id="msgPage" data-spy="scroll" data-target=".navbar" data-offset="50" style="
+    min-height: 75rem;
+    padding-top: 4.5rem;">
 
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" style="
-      color:#b5e853;
-      " href="/index.html">msg lab</a>
-      </div>
-
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav navbar-left">
-          <li><a href="/html/msg.html" class="nav-link" style="padding-left: 15px;">msg</a></li>
-          <li><a href="/html/tools.html" class="nav-link">tools</a></li>
-          <li><a href="#skunkW-header" class="nav-link active-page">skunkW</a></li>
-        </ul>
-      </div>
+  <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="/index.html">msg lab<span class="sr-only">(current)</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/html/msg.html">msg</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/html/tools.html">tools</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/html/skunkW.html">skunkW</a>
+        </li>
+      </ul>
     </div>
   </nav>
-  <!--   <div id="msg-header">
-    <div class="jumbotron text-center">
-      <h1>Other Projects</h1>
-      <p>Under Construction</p>
-    </div>
-  </div> -->
 
-  <div id="pirate" class="container-fluid text-center bg-grey">
-    <h2>Pirate Radio Add-on</h2><br>
-    <div class="row">
-      <div class="col-sm-8">
-        <img src="/img/exp bay.jpeg" class="
+  <main role="main" class="container">
+    <div id="pirate" class="container-fluid text-center bg-grey">
+      <h2>Pirate Radio Add-on</h2><br>
+      <div class="row">
+        <div class="col-sm-8">
+          <img src="/img/exp bay.jpeg" class="
           img-rounded
           img-responsive" alt="exp bay shot of msg">
-      </div>
-      <div class="col-sm-4 text-justify">
-        This is the first add-on I put together for the expansion bay on the msg.<br>
-        It is just a pirate audio from pimoroni mounted on a raspberry pi zero<br>
-        <br>
+        </div>
+        <div class="col-sm-4 text-justify">
+          This is the first add-on I put together for the expansion bay on the msg.<br>
+          It is just a pirate audio from pimoroni mounted on a raspberry pi zero<br>
+          <br>
+        </div>
       </div>
     </div>
-  </div>
-
+  </main>
   <footer class="container-fluid text-center">
     <a href="#myPage" title="To Top">
       <span class="glyphicon glyphicon-chevron-up"></span>
