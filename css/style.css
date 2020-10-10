@@ -3,7 +3,7 @@ body {
   font-family: "Monaco", "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   line-height: 1;
   color: #fff;
-  background-color: #333333;
+  background-color:#36393f;
   text-align: justify;
 }
 h2 {
@@ -75,7 +75,7 @@ a.blog-link:active
 }
 
 .jumbotron {
-  background-color: #333333;
+  background-color: #36393f;
   padding-top: 70px;
   padding-bottom: 0px;
   margin-bottom: -10px;
