@@ -2,14 +2,38 @@ body {
   font-size: 18px;
   font-family: 'IBM Plex Sans', sans-serif;
   line-height: 1;
-  color: #29292b;
+  color:  #d4d9e4;
   background-color:#29292b;
   text-align: left;
 }
 
 .dark-mode {
   background-color: #d4d9e4;
-  color: white;
+  color: #29292b;
+}
+
+
+.navbar {
+  margin-bottom: 0;
+  background-color: #151515;
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+  font-family: "Monaco, Bitstream Vera Sans Mono, Lucida Console", Terminal, monospace;
+}
+/* .navbar li a, .navbar .navbar-brand {
+  color: #fff !important;
+} */
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #151515 !important;
+  background-color: #fff !important;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
 }
 
 main {
@@ -33,31 +57,6 @@ h4 {
 .blog-image {
   display: inline;
 }
-
-/* a.nav-link:link
-{
-   color: #414253;
-   text-decoration: none;
-   padding-left: 0rem;
-}
-a.nav-link:visited
-{
-   color: #414253;
-   text-decoration: none;
-   padding-left: 0rem;
-}
-a.nav-link:hover
-{
-   color: #414253;
-   text-decoration: none;
-   padding-left: 0rem;
-}
-a.nav-link:active
-{
-   color: #414253;
-   text-decoration: none;
-   padding-left: 0rem;
-} */
 
 a.blog-link:link
 {
@@ -89,15 +88,11 @@ a.blog-link:active
   padding-left: 50px;
   padding-right: 50px;
 }
-/* .bg-grey {
-  background-color: #29292b;
-} */
+
 .logo-small {
-/*   color: #151515; */
   font-size: 50px;
 }
 .logo {
- /*  color: #151515; */
   font-size: 200px;
 }
 .thumbnail {
@@ -168,28 +163,7 @@ a.blog-link:active
   background-color: #151515;
   color: #fff;
 }
-.navbar {
-  margin-bottom: 0;
-  background-color: #151515;
-  z-index: 9999;
-  border: 0;
-  font-size: 12px !important;
-  line-height: 1.42857143 !important;
-  letter-spacing: 4px;
-  border-radius: 0;
-  font-family: "Monaco, Bitstream Vera Sans Mono, Lucida Console", Terminal, monospace;
-}
-/* .navbar li a, .navbar .navbar-brand {
-  color: #fff !important;
-} */
-.navbar-nav li a:hover, .navbar-nav li.active a {
-  color: #151515 !important;
-  background-color: #fff !important;
-}
-.navbar-default .navbar-toggle {
-  border-color: transparent;
-  color: #fff !important;
-}
+
 footer .glyphicon {
   font-size: 20px;
   margin-bottom: 20px;
