@@ -12,6 +12,13 @@ body {
   color: #29292b;
 }
 
+@media(prefers-color-scheme: dark) {
+  body {
+    background-color: #29292b;
+      color: #d4d9e4;
+  }
+}
+
 
 .navbar {
   margin-bottom: 0;
@@ -197,7 +204,7 @@ footer .glyphicon {
     -webkit-transform: translateY(0%);
   }
 }
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .col-sm-4 {
     text-align: center;
     margin: 25px 0;
@@ -211,4 +218,4 @@ footer .glyphicon {
   .logo {
     font-size: 150px;
   }
-}
+} */
