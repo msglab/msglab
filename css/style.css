@@ -60,24 +60,24 @@ h4 {
 
 a.blog-link:link
 {
-   color: #414253;
+  
    text-decoration: underline;
 }
 a.blog-link:visited
 {
-   color: #414253;
+
    text-decoration: underline;
    padding-left: 0rem;
 }
 a.blog-link:hover
 {
-   color: #414253;
+ 
    text-decoration: underline;
    padding-left: 0rem;
 }
 a.blog-link:active
 {
-   color: #414253;
+   
    text-decoration: underline;
    padding-left: 0rem;
 }
