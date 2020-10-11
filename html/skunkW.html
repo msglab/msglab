@@ -56,15 +56,17 @@
     </div>
   </main>
   <footer class="container-fluid text-center">
-    <a href="#myPage" title="To Top">
-      <span class="glyphicon glyphicon-chevron-up"></span>
+    <a href="#indexPage" title="To Top">
+      <span>
+        <img src="/img/bootstrap-icons/chevron-up.svg" alt="" width="32" height="32" title="Chevron">
+      </span>
     </a>
   </footer>
 
   <script>
     $(document).ready(function () {
       // Add smooth scrolling to all links in navbar + footer link
-      $(".navbar a, footer a[href='#myPage']").on('click', function (event) {
+      $(".navbar a, footer a[href='#indexPage']").on('click', function (event) {
         // Make sure this.hash has a value before overriding default behavior
         if (this.hash !== "") {
           // Prevent default anchor click behavior
