@@ -3,24 +3,22 @@ body {
   font-family: 'IBM Plex Sans', sans-serif;
   line-height: 1;
   color: #29292b;
-  background-color:#d4d9e4;
+  background-color:#29292b;
   text-align: left;
 }
 
 .dark-mode {
-  background-color: black;
+  background-color: #d4d9e4;
   color: white;
 }
 
 main {
   margin: 0;
-  background-color: #d4d9e4;
 }
 
 h2 {
   font-size: 24px;
   text-transform: uppercase;
- /*  color: #303030; */
   font-weight: 600;
   margin-bottom: 30px;
   text-align: center;
@@ -28,7 +26,6 @@ h2 {
 h4 {
   font-size: 19px;
   line-height: 1.375em;
-/*   color: #303030; */
   font-weight: 400;
   margin-bottom: 30px;
 }
@@ -86,22 +83,15 @@ a.blog-link:active
    padding-left: 0rem;
 }
 
-.jumbotron {
-  background-color: #36393f;
-  padding-top: 70px;
-  padding-bottom: 0px;
-  margin-bottom: -10px;
-/*   margin-top: 50px; */
-}
 .container-fluid {
   padding-top: 60px;
   padding-bottom: 5px;
   padding-left: 50px;
   padding-right: 50px;
 }
-.bg-grey {
+/* .bg-grey {
   background-color: #29292b;
-}
+} */
 .logo-small {
 /*   color: #151515; */
   font-size: 50px;
