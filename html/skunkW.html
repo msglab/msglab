@@ -38,66 +38,74 @@
         </li>
       </ul>
     </div>
-  </nav>
-  <main role="main">
-    <div class="row">
-      <div class="col-xl-6 align-items-center">
-        <div id="pirate" class="container-fluid text-left" style="padding-top:60px">
-          <h2>Pirate Radio Add-on</h2><br>
-          <img src="/img/exp bay.jpg" class="
+    <ul class="navbar-nav mr-auto">
+
+      <button type="button" class="btn btn-outline-dark" onclick="darkModeToggle()">
+        <img src="/img/bootstrap-icons/circle-half.svg" alt="" width="24" height="24" title="dark-mode">
+      </button>
+    </ul>
+    <main role="main">
+      <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8 align-items-center">
+          <div id="pirate" class="container-fluid text-left" style="padding-top:60px">
+            <h2>Pirate Radio Add-on</h2><br>
+            <img src="/img/exp bay.jpg" class="
           rounded
           img-fluid
           mx-auto d-block" style="margin-bottom: 25px;" alt="right shot of msg">
-          This is the first add-on I put together for the expansion bay on the msg.<br>
-          It is just a pirate audio from pimoroni mounted on a raspberry pi zero<br>
+            This is the first add-on I put together for the expansion bay on the msg.<br>
+            It is just a pirate audio from pimoroni mounted on a raspberry pi zero<br>
+          </div>
         </div>
+        <div class="col-sm-2"></div>
+
       </div>
-    </div>
-  </main>
-  <footer class="container-fluid text-center">
-    <a href="#skunkPage" title="To Top">
-      <span>
-        <img src="/img/bootstrap-icons/chevron-up.svg" alt="" width="32" height="32" title="Chevron">
-      </span>
-    </a>
-  </footer>
+    </main>
+    <footer class="container-fluid text-center">
+      <a href="#skunkPage" title="To Top">
+        <span>
+          <img src="/img/bootstrap-icons/chevron-up.svg" alt="" width="32" height="32" title="Chevron">
+        </span>
+      </a>
+    </footer>
 
-  <script>
-    $(document).ready(function () {
-      // Add smooth scrolling to all links in navbar + footer link
-      $(".navbar a, footer a[href='#skunkPage']").on('click', function (event) {
-        // Make sure this.hash has a value before overriding default behavior
-        if (this.hash !== "") {
-          // Prevent default anchor click behavior
-          event.preventDefault();
+    <script>
+      $(document).ready(function () {
+        // Add smooth scrolling to all links in navbar + footer link
+        $(".navbar a, footer a[href='#skunkPage']").on('click', function (event) {
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
 
-          // Store hash
-          var hash = this.hash;
+            // Store hash
+            var hash = this.hash;
 
-          // Using jQuery's animate() method to add smooth page scroll
-          // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-          $('html, body').animate({
-            scrollTop: $(hash).offset().top
-          }, 900, function () {
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 900, function () {
 
-            // Add hash (#) to URL when done scrolling (default click behavior)
-            window.location.hash = hash;
-          });
-        } // End if
-      });
-
-      $(window).scroll(function () {
-        $(".slideanim").each(function () {
-          var pos = $(this).offset().top;
-
-          var winTop = $(window).scrollTop();
-          if (pos < winTop + 600) {
-            $(this).addClass("slide");
-          }
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            });
+          } // End if
         });
-      });
-    })
-  </script>
+
+        $(window).scroll(function () {
+          $(".slideanim").each(function () {
+            var pos = $(this).offset().top;
+
+            var winTop = $(window).scrollTop();
+            if (pos < winTop + 600) {
+              $(this).addClass("slide");
+            }
+          });
+        });
+      })
+    </script>
 
 </body>
 
