@@ -7,6 +7,11 @@ body {
   text-align: left;
 }
 
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
 main {
   margin: 0;
   background-color: #d4d9e4;
