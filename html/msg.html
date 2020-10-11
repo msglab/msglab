@@ -48,7 +48,8 @@
   </nav>
   <main role="main">
     <div class="row">
-      <div class="col-xl-6 align-items-center">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8 align-items-center">
         <div id="background" class="container-fluid text-left" style="padding-top:60px">
           <h2>Background</h2>
           <img src="/img/top.jpg" class="
@@ -70,8 +71,12 @@
           I wanted for a viable daily driver computer and that to fit the hardware I had in mind, there would need
           to be a significant number of design changes.
         </div>
+        <div class="col-sm-2"></div>
       </div>
-      <div class="col-xl-6 align-items-center">
+    </div>
+    <div class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8 align-items-center">
         <div id="build" class="container-fluid text-left" style="padding-top:60px">
           <h2>Build</h2>
           <div class="col">
@@ -89,11 +94,12 @@
           </div>
         </div>
       </div>
+      <div class="col-sm-2"></div>
     </div>
 
     <div class="row">
-      <div class="col-xl-6 align-items-center">
-
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8 align-items-center">
         <div id="parts" class="container-fluid text-left" style="padding-top:60px">
           <h2> Parts</h2>
           <img src="/img/front.jpg" class="
@@ -158,8 +164,13 @@
             </div>
           </div>
         </div>
+
       </div>
-      <div class="col-xl-6 align-items-center">
+      <div class="col-sm-2"></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8 align-items-center">
         <div id="software" class="container-fluid text-left" style="padding-top:60px">
           <h2>Software</h2>
           <div class="row">
@@ -187,6 +198,7 @@
           </div>
         </div>
       </div>
+      <div class="col-sm-2"></div>
     </div>
 
     <footer class="container-fluid text-center">
@@ -196,43 +208,43 @@
         </span>
       </a>
     </footer>
-  
+
     <script>
       $(document).ready(function () {
         // Add smooth scrolling to all links in navbar + footer link
         $(".navbar a, footer a[href='#msgPage']").on('click', function (event) {
-        // Make sure this.hash has a value before overriding default behavior
-        if (this.hash !== "") {
-          // Prevent default anchor click behavior
-          event.preventDefault();
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
 
-          // Store hash
-          var hash = this.hash;
+            // Store hash
+            var hash = this.hash;
 
-          // Using jQuery's animate() method to add smooth page scroll
-          // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-          $('html, body').animate({
-            scrollTop: $(hash).offset().top
-          }, 900, function () {
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 900, function () {
 
-            // Add hash (#) to URL when done scrolling (default click behavior)
-            window.location.hash = hash;
-          });
-        } // End if
-      });
-
-      $(window).scroll(function () {
-        $(".slideanim").each(function () {
-          var pos = $(this).offset().top;
-
-          var winTop = $(window).scrollTop();
-          if (pos < winTop + 600) {
-            $(this).addClass("slide");
-          }
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            });
+          } // End if
         });
-      });
-    })
-  </script>
+
+        $(window).scroll(function () {
+          $(".slideanim").each(function () {
+            var pos = $(this).offset().top;
+
+            var winTop = $(window).scrollTop();
+            if (pos < winTop + 600) {
+              $(this).addClass("slide");
+            }
+          });
+        });
+      })
+    </script>
 
 </body>
 
