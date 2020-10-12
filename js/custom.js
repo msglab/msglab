@@ -14,6 +14,7 @@ function disableStylesheet (node) {
 }
 
 function removeExternalStyleSheetLink(cssLinkId) {
+  console.log( 'cssLinkId', cssLinkId)
   var cssLink = document.getElementById(cssLinkId);
   cssLink.parentNode.removeChild(cssLink);
 }
