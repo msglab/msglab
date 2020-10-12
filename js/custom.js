@@ -31,8 +31,7 @@ function createExternalStyleSheetLink(cssLinkId, href) {
 var gCurThemeName = "dark";
 function changeStyleSheet() {
 
-/*   if (document.getElementById("main-msg-logo")) {
-    console.log( 'in')
+  if (document.getElementById("main-msg-logo")) {
     if (document.getElementById("main-msg-logo").src == "/img/msg_dark.png") {
       document.getElementById("main-msg-logo").src = "/img/msg_light.png";
     }
@@ -41,7 +40,7 @@ function changeStyleSheet() {
     }
   }
   else {
-  } */
+  }
 
   if (gCurThemeName == "dark") {
     newThemeName = "light"
