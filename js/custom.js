@@ -5,10 +5,10 @@
   element.classList.toggle("dark-mode");
 } */
 
-function lightmode (node) {
+function lightMode (node) {
   node.rel = '/css/light.css';
 }
 
-function darkmode (node) {
+function darkMode (node) {
   node.rel = '/css/dark.css';
 }
