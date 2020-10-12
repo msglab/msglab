@@ -30,7 +30,7 @@ function createExternalStyleSheetLink(cssLinkId, href) {
 
  
 function changeStyleSheet(newThemeName) {
-  var gCurThemeName = "mono";
+  var gCurThemeName = "dark";
   removeExternalStyleSheetLink(gCurThemeName);
   createExternalStyleSheetLink(newThemeName, newThemeName + ".css");
   gCurThemeName = newThemeName;
