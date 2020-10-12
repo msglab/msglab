@@ -6,11 +6,11 @@
 } */
 
 function enableStylesheet (node) {
-  node.rel = '/css/light.css';
+  node.rel = 'stylesheet';
 }
 
 function disableStylesheet (node) {
-  node.rel = '/css/dark.css';
+  node.rel = 'alternate stylesheet';
 }
 
 function removeExternalStyleSheetLink(cssLinkId) {
