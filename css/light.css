@@ -2,14 +2,9 @@ body {
   font-size: 18px;
   font-family: 'IBM Plex Sans', sans-serif;
   line-height: 1;
-  color:  #d4d9e4;
-  background-color:#29292b;
-  text-align: left;
-}
-
-.dark-mode {
   background-color: #d4d9e4;
   color: #29292b;
+  text-align: left;
 }
 
 @media(prefers-color-scheme: dark) {
