@@ -35,5 +35,5 @@ function changeStyleSheet(newThemeName) {
   removeExternalStyleSheetLink(gCurThemeName);
   createExternalStyleSheetLink(newThemeName, newThemeName + ".css");
   gCurThemeName = newThemeName;
-  document.getElementById("using").innerHTML = gCurThemeName + ".css";
+  document.getElementById("using").innerHTML = "/css/" + gCurThemeName + ".css";
 }
