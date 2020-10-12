@@ -5,20 +5,19 @@
   element.classList.toggle("dark-mode");
 } */
 
-function enableStylesheet (node) {
+function enableStylesheet(node) {
   node.rel = 'stylesheet';
 }
 
-function disableStylesheet (node) {
+function disableStylesheet(node) {
   node.rel = 'alternate stylesheet';
 }
 
 function removeExternalStyleSheetLink(cssLinkId) {
-  console.log( 'cssLinkId', cssLinkId)
   var cssLink = document.getElementById(cssLinkId);
   cssLink.parentNode.removeChild(cssLink);
 }
- 
+
 function createExternalStyleSheetLink(cssLinkId, href) {
   var cssLink = document.createElement("link");
   cssLink.id = cssLinkId;
@@ -29,11 +28,12 @@ function createExternalStyleSheetLink(cssLinkId, href) {
   document.getElementsByTagName("head")[0].appendChild(cssLink);
 }
 
- 
+
 function changeStyleSheet(newThemeName) {
   var gCurThemeName = "dark";
   removeExternalStyleSheetLink(gCurThemeName);
   createExternalStyleSheetLink(newThemeName, newThemeName + ".css");
   gCurThemeName = newThemeName;
+  console.log('"/css/" + gCurThemeName + ".css"', "/css/" + gCurThemeName + ".css")
   document.getElementById("using").innerHTML = "/css/" + gCurThemeName + ".css";
 }
