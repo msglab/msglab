@@ -25,12 +25,20 @@ function createExternalStyleSheetLink(cssLinkId, href) {
   cssLink.rel = "stylesheet";
   cssLink.href = href;
   cssLink.media = "screen";
-  console.log('cssLink', cssLink)
   document.getElementsByTagName("head")[0].appendChild(cssLink);
 }
 
 var gCurThemeName = "dark";
 function changeStyleSheet() {
+
+  console.log('msg', document.getElementById("main-msg-logo").src)
+  if (document.getElementById("main-msg-logo").src == "/img/msg_dark.png") {
+    document.getElementById("main-msg-logo").src = "/img/msg_light.png";
+  }
+  else {
+    document.getElementById("main-msg-logo").src = "/img/msg_dark.png";
+  }
+
   if (gCurThemeName == "dark") {
     newThemeName = "light"
   } else { newThemeName = "dark" }
