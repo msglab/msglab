@@ -7,10 +7,10 @@ body {
   text-align: left;
 }
 
-@media(prefers-color-scheme: dark) {
+@media(prefers-color-scheme: light) {
   body {
-    background-color: #29292b;
-      color: #d4d9e4;
+    background-color: #d4d9e4;
+      color: #29292b;
   }
 }
 

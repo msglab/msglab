@@ -25,15 +25,17 @@ function createExternalStyleSheetLink(cssLinkId, href) {
   cssLink.rel = "stylesheet";
   cssLink.href = href;
   cssLink.media = "screen";
-  console.log( 'cssLink', cssLink)
+  console.log('cssLink', cssLink)
   document.getElementsByTagName("head")[0].appendChild(cssLink);
 }
 
-
-function changeStyleSheet(newThemeName) {
-  var gCurThemeName = "dark";
+var gCurThemeName = "dark";
+function changeStyleSheet() {
+  if (gCurThemeName == "dark") {
+    newThemeName = "light"
+  } else { newThemeName = "dark" }
   removeExternalStyleSheetLink(gCurThemeName);
   createExternalStyleSheetLink(newThemeName, "/css/" + newThemeName + ".css");
   gCurThemeName = newThemeName;
- /*  document.getElementById("using").innerHTML = "/css/" + gCurThemeName + ".css"; */
+
 }
