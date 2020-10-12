@@ -32,7 +32,7 @@ function createExternalStyleSheetLink(cssLinkId, href) {
 function changeStyleSheet(newThemeName) {
   var gCurThemeName = "dark";
   removeExternalStyleSheetLink(gCurThemeName);
-  createExternalStyleSheetLink(newThemeName, newThemeName + ".css");
+  createExternalStyleSheetLink(newThemeName, "/css/" + newThemeName + ".css");
   gCurThemeName = newThemeName;
   console.log('"/css/" + gCurThemeName + ".css"', "/css/" + gCurThemeName + ".css")
   document.getElementById("using").innerHTML = "/css/" + gCurThemeName + ".css";
