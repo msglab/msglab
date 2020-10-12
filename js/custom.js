@@ -25,6 +25,7 @@ function createExternalStyleSheetLink(cssLinkId, href) {
   cssLink.rel = "stylesheet";
   cssLink.href = href;
   cssLink.media = "screen";
+  console.log( 'cssLink', cssLink)
   document.getElementsByTagName("head")[0].appendChild(cssLink);
 }
 
@@ -34,6 +35,5 @@ function changeStyleSheet(newThemeName) {
   removeExternalStyleSheetLink(gCurThemeName);
   createExternalStyleSheetLink(newThemeName, "/css/" + newThemeName + ".css");
   gCurThemeName = newThemeName;
-  console.log('"/css/" + gCurThemeName + ".css"', "/css/" + gCurThemeName + ".css")
  /*  document.getElementById("using").innerHTML = "/css/" + gCurThemeName + ".css"; */
 }
