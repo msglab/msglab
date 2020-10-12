@@ -31,13 +31,17 @@ function createExternalStyleSheetLink(cssLinkId, href) {
 var gCurThemeName = "dark";
 function changeStyleSheet() {
 
-  console.log('msg', document.getElementById("main-msg-logo").src)
-  if (document.getElementById("main-msg-logo").src == "/img/msg_dark.png") {
-    document.getElementById("main-msg-logo").src = "/img/msg_light.png";
+/*   if (document.getElementById("main-msg-logo")) {
+    console.log( 'in')
+    if (document.getElementById("main-msg-logo").src == "/img/msg_dark.png") {
+      document.getElementById("main-msg-logo").src = "/img/msg_light.png";
+    }
+    else {
+      document.getElementById("main-msg-logo").src = "/img/msg_dark.png";
+    }
   }
   else {
-    document.getElementById("main-msg-logo").src = "/img/msg_dark.png";
-  }
+  } */
 
   if (gCurThemeName == "dark") {
     newThemeName = "light"
