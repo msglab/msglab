@@ -46,24 +46,20 @@ h4 {
 a.blog-link:link
 {
   
-   text-decoration: underline;
 }
 a.blog-link:visited
 {
 
-   text-decoration: underline;
    padding-left: 0rem;
 }
 a.blog-link:hover
 {
  
-   text-decoration: underline;
    padding-left: 0rem;
 }
 a.blog-link:active
 {
    
-   text-decoration: underline;
    padding-left: 0rem;
 }
 

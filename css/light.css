@@ -62,25 +62,27 @@ h4 {
 
 a.blog-link:link
 {
-  
-   text-decoration: underline;
+  font-weight: bold;
+  color: black;
 }
 a.blog-link:visited
 {
-
-   text-decoration: underline;
+color: black;
+/*     text-decoration: underline; */
+  font-weight: bold;
    padding-left: 0rem;
 }
 a.blog-link:hover
 {
- 
-   text-decoration: underline;
+  font-weight: bold;
+ color: black;
+   /* text-decoration: underline; */
    padding-left: 0rem;
 }
 a.blog-link:active
 {
-   
-   text-decoration: underline;
+  font-weight: bold;
+  color: black;
    padding-left: 0rem;
 }
 
