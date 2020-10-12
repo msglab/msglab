@@ -5,10 +5,10 @@
   element.classList.toggle("dark-mode");
 } */
 
-function enableStylesheet (node) {
+function lightmode (node) {
   node.rel = '/css/light.css';
 }
 
-function disableStylesheet (node) {
+function darkmode (node) {
   node.rel = '/css/dark.css';
 }
