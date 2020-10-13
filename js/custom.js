@@ -45,7 +45,7 @@ function swapStyleSheet() {
     document.getElementById('themeToggle').setAttribute('href', sheet);
     localStorage.setItem("sheet", sheet);
 
-  } else if (currentCSS = "//css/light.css") {
+  } else if (currentCSS = "/css/light.css") {
     var sheet = "/css/dark.css"
     document.getElementById('themeToggle').setAttribute('href', sheet);
     localStorage.setItem("sheet", sheet);
