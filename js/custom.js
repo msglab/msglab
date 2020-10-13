@@ -28,7 +28,7 @@ function applyStyleSheet(sheet) {
   document.getElementById('themeToggle').setAttribute('href', sheet);
   localStorage.setItem("sheet", sheet);
 
-  if (window.location.href == "/index.html") {
+  if (window.location.href == "/index") {
     if (sheet == "/css/dark.css") {
       document.getElementById("main-msg-logo").src = "/img/msg_dark.png"
     } else {
@@ -51,7 +51,7 @@ function swapStyleSheet() {
     localStorage.setItem("sheet", sheet);
   }
 
-  if (window.location.href == "/index.html") {
+  if (window.location.href == "/index") {
     if (sheet == "/css/dark.css") {
       document.getElementById("main-msg-logo").src = "/img/msg_dark.png"
     } else {
