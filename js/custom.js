@@ -39,6 +39,7 @@ function applyStyleSheet(sheet) {
 
 }
 function swapStyleSheet() {
+  console.log( 'change theme')
   var currentCSS = document.getElementById('themeToggle').href
   if (currentCSS == "/css/dark.css") {
     var sheet = "/css/light.css"
