@@ -49,7 +49,7 @@ function swapStyleSheet() {
     localStorage.setItem("sheet", sheet);
   }
 
-  if (window.location.href == "https://msglab.co/index") {
+  if (window.location.href == "https://msglab.co/index" || "https://msglab.co") {
     if (sheet == "https://msglab.co/css/dark.css") {
       document.getElementById("main-msg-logo").src = "/img/msg_dark.png"
     } else {
