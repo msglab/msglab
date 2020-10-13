@@ -27,7 +27,6 @@ function createExternalStyleSheetLink(cssLinkId, href) {
 function applyStyleSheet(sheet) {
   document.getElementById('themeToggle').setAttribute('href', sheet);
   localStorage.setItem("sheet", sheet);
-  console.log('href sheet', window.location.href, sheet)
   if (window.location.href == "https://msglab.co/index") {
     if (sheet == "https://msglab.co/css/dark.css") {
       document.getElementById("main-msg-logo").src = "/img/msg_dark.png"
