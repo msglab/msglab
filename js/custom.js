@@ -27,7 +27,7 @@ function createExternalStyleSheetLink(cssLinkId, href) {
 function applyStyleSheet(sheet) {
   document.getElementById('themeToggle').setAttribute('href', sheet);
   localStorage.setItem("sheet", sheet);
-  if (window.location.href == "https://msglab.co/index") {
+  if (window.location.href == "https://msglab.co/index" || window.location.href == "https://msglab.co/") {
     if (sheet == "https://msglab.co/css/dark.css") {
       document.getElementById("main-msg-logo").src = "/img/msg_dark.png"
     } else {
@@ -48,8 +48,8 @@ function swapStyleSheet() {
     document.getElementById('themeToggle').setAttribute('href', sheet);
     localStorage.setItem("sheet", sheet);
   }
-  console.log('msg', window.location.href)
-  if (window.location.href == "https://msglab.co/index" || window.location.href == "https://msglab.co") {
+
+  if (window.location.href == "https://msglab.co/index" || window.location.href == "https://msglab.co/") {
     if (sheet == "https://msglab.co/css/dark.css") {
       document.getElementById("main-msg-logo").src = "/img/msg_dark.png"
     } else {
