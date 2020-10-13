@@ -19,34 +19,61 @@ function removeExternalStyleSheetLink(cssLinkId) {
 }
 
 function createExternalStyleSheetLink(cssLinkId, href) {
+  console.log('msg')
   var cssLink = document.createElement("link");
   cssLink.id = cssLinkId;
   cssLink.type = "text/css";
   cssLink.rel = "stylesheet";
   cssLink.href = href;
   cssLink.media = "screen";
-  document.getElementsByTagName("head")[0].appendChild(cssLink);
+  /*   document.getElementsByTagName("head")[0].appendChild(cssLink);
+  
+  
+    document.getElementById('theme').setAttribute('href', cssLinkId); */
+  localStorage.setItem("sheet", cssLinkId);
+
 }
 
-var gCurThemeName = "dark";
 function changeStyleSheet() {
 
-  if (document.getElementById("main-msg-logo")) {
-    if (document.getElementById("main-msg-logo").src == "/img/msg_dark.png") {
-      document.getElementById("main-msg-logo").src = "/img/msg_light.png";
-    }
-    else {
-      document.getElementById("main-msg-logo").src = "/img/msg_dark.png";
-    }
-  }
-  else {
-  }
 
-  if (gCurThemeName == "dark") {
-    newThemeName = "light"
-  } else { newThemeName = "dark" }
-  removeExternalStyleSheetLink(gCurThemeName);
-  createExternalStyleSheetLink(newThemeName, "/css/" + newThemeName + ".css");
-  gCurThemeName = newThemeName;
-
+  /*   if (theme == "light") {
+      document.getElementById("main-msg-logo").src = "/img/msg_dark.png"
+      newTheme = "dark"
+    } else {
+      newTheme = "light"
+      document.getElementById("main-msg-logo").src = "//img/msg_light.png"
+    }
+    removeExternalStyleSheetLink(theme);
+    createExternalStyleSheetLink(newTheme, "/css/" + newTheme + ".css");
+    theme = newTheme; */
 }
+
+function applyStyleSheet(sheet) {
+  document.getElementById('themeToggle').setAttribute('href', sheet);
+  localStorage.setItem("sheet", sheet);
+}
+
+
+function swapStyleSheet() {
+  var currentCSS = document.getElementById('themeToggle').href
+  console.log('msg', currentCSS)
+  if (currentCSS == "/css/dark.css") {
+    console.log('msg sheet', currentCSS)
+    var sheet = "/css/light.css"
+    document.getElementById('themeToggle').setAttribute('href', sheet);
+    localStorage.setItem("sheet", sheet);
+
+  } else if (currentCSS = "/css/light.css") {
+    console.log('msg sheet', currentCSS)
+    var sheet = "/css/dark.css"
+    document.getElementById('themeToggle').setAttribute('href', sheet);
+    localStorage.setItem("sheet", sheet);
+  }
+}
+
+
+window.onload = _ =>
+  applyStyleSheet(
+    localStorage.getItem("sheet") || "/css/dark.css"
+  );
