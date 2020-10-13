@@ -41,18 +41,18 @@ function applyStyleSheet(sheet) {
 function swapStyleSheet() {
   console.log('change theme', document.getElementById('themeToggle').href)
   var currentCSS = document.getElementById('themeToggle').href
-  if (currentCSS == "https://msglab.co//css/dark.css") {
-    var sheet = "https://msglab.co//css/light.css"
+  if (currentCSS == "https://msglab.co/css/dark.css") {
+    var sheet = "https://msglab.co/css/light.css"
     document.getElementById('themeToggle').setAttribute('href', sheet);
     localStorage.setItem("sheet", sheet);
-  } else if (currentCSS = "https://msglab.co//css/light.css") {
-    var sheet = "https://msglab.co//css/dark.css"
+  } else if (currentCSS = "https://msglab.co/css/light.css") {
+    var sheet = "https://msglab.co/css/dark.css"
     document.getElementById('themeToggle').setAttribute('href', sheet);
     localStorage.setItem("sheet", sheet);
   }
 
   if (window.location.href == "/index") {
-    if (sheet == "https://msglab.co//css/dark.css") {
+    if (sheet == "https://msglab.co/css/dark.css") {
       document.getElementById("main-msg-logo").src = "/img/msg_dark.png"
     } else {
       document.getElementById("main-msg-logo").src = "/img/msg_light.png"
