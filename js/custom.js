@@ -39,13 +39,12 @@ function applyStyleSheet(sheet) {
 
 }
 function swapStyleSheet() {
-  console.log( 'change theme')
+  console.log( 'change theme', document.getElementById('themeToggle').href)
   var currentCSS = document.getElementById('themeToggle').href
   if (currentCSS == "/css/dark.css") {
     var sheet = "/css/light.css"
     document.getElementById('themeToggle').setAttribute('href', sheet);
     localStorage.setItem("sheet", sheet);
-
   } else if (currentCSS = "/css/light.css") {
     var sheet = "/css/dark.css"
     document.getElementById('themeToggle').setAttribute('href', sheet);
@@ -58,7 +57,6 @@ function swapStyleSheet() {
     } else {
       document.getElementById("main-msg-logo").src = "/img/msg_light.png"
     }
-
   }
 }
 
