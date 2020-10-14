@@ -33,10 +33,9 @@ function applyStyleSheet(sheet) {
     } else {
       document.getElementById("main-msg-logo").src = "/img/msg_dark.png"
     }
-
   }
-
 }
+
 function swapStyleSheet() {
   var currentCSS = document.getElementById('themeToggle').href
   if (currentCSS == "https://msglab.co/css/dark.css") {
