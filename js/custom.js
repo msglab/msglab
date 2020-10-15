@@ -157,7 +157,7 @@ function js_Load() {
 window.onload = _ => {
 
   const pageName = getPageName();
-  scrollSpy();
-  navigationBar(pageName);
+/*   scrollSpy();
+  navigationBar(pageName); */
 
 }
