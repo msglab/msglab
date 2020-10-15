@@ -129,13 +129,12 @@ function navigationBar(pageName) {
     +
     '</ul>\
     </div>\
-    <ul class="navbar-nav mr-auto text-right">\
+    <ul class="navbar-nav mr-auto float:right">\
         <button type="button" class="btn btn-outline-dark"  id="dark-theme-toggle">\
           <img src="/img/bootstrap-icons/circle-half.svg" alt="" width="24" height="24" title="dark-mode-toggle">\
         </button>\
       </ul>\
-  </nav>\
-'
+  </nav>'
   document.getElementById('topBarNav').innerHTML = navigationBarCode;
   document.getElementById('dark-theme-toggle').onclick = swapStyleSheet;
 
