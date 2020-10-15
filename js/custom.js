@@ -141,10 +141,8 @@ function navigationBar(pageName) {
   document.getElementById('dark-theme-toggle').onclick = swapStyleSheet;
 
 }
-
  
 function getPageName() {
-
   var pageName = location.pathname.split('/').pop()
   pageName = pageName.split(".").shift()
   return pageName;
