@@ -156,9 +156,7 @@ function js_Load() {
 
 
 window.onload = _ => {
-  applyStyleSheet(
-    localStorage.getItem("sheet")
-  );
+
   const pageName = getPageName();
   scrollSpy();
   navigationBar(pageName);
