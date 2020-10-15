@@ -1,3 +1,10 @@
+body {
+  font-size: 18px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  line-height: 1;
+  text-align: left;
+}
+
 .navbar {
   margin-bottom: 0;
   background-color: #151515;
@@ -45,22 +52,7 @@ h4 {
 
 a.blog-link:link
 {
-  
-}
-a.blog-link:visited
-{
-
-   padding-left: 0rem;
-}
-a.blog-link:hover
-{
- 
-   padding-left: 0rem;
-}
-a.blog-link:active
-{
-   
-   padding-left: 0rem;
+  font-weight: bold;
 }
 
 .container-fluid {
