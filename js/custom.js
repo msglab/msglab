@@ -108,11 +108,12 @@ function navigationBar(pageName) {
   var navigationBarCode = '\
    <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark">\
     <a class="navbar-brand" href="/index">msg lab</a>\
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"\
+    <button class="navbar-toggler" style="position: absolute; right: 70px; top:8px;"\
+    type="button" data-toggle="collapse" data-target="#navbarCollapse"\
       aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">\
       <span class="navbar-toggler-icon"></span>\
     </button>\
-    <div class="collapse navbar-collapse" id="navbarCollapse">\
+    <div class="collapse navbar-collapse navbar-right" id="navbarCollapse">\
       <ul class="navbar-nav mr-auto">\
         <li class="nav-item">\
           <a class="nav-link" href="/html/msg">msg</a>\
@@ -130,7 +131,8 @@ function navigationBar(pageName) {
     '</ul>\
     </div>\
     <ul class="navbar-nav mr-auto .navbar-right">\
-        <button type="button" class="btn btn-outline-dark" id="dark-theme-toggle">\
+        <button type="button" class="btn btn-outline-dark" id="dark-theme-toggle"  style="position: absolute;\
+        right: 15px; top:8px;">\
           <img src="/img/bootstrap-icons/circle-half.svg" alt="" width="24" height="24" title="dark-mode-toggle">\
         </button>\
       </ul>\
@@ -140,9 +142,7 @@ function navigationBar(pageName) {
 
 }
 
-/* style="position: absolute;\
-        right: 15px; top:8px;"
- */
+ 
 function getPageName() {
 
   var pageName = location.pathname.split('/').pop()
