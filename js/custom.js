@@ -96,7 +96,6 @@ function scrollSpy() {
 }
 
 function navigationBar(pageName) {
-  console.log(pageName);
   var menuOptions = NavBarConfig[pageName];
 
   if (menuOptions !== undefined) {
