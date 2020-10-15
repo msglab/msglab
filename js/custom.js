@@ -26,6 +26,7 @@ function createExternalStyleSheetLink(cssLinkId, href) {
 }
  */
 function applyStyleSheet(sheet) {
+  console.log( sheet )
   document.getElementById('themeToggle').setAttribute('href', sheet);
   localStorage.setItem("sheet", sheet);
   if (window.location.href == "https://msglab.co/index" || window.location.href == "https://msglab.co/") {
@@ -147,14 +148,10 @@ function getPageName() {
   return pageName;
 }
 
-function js_Load() {
-  console.log( 'msg' )
-
-  document.body.style.visibility='visible';
-} 
-
-
 window.onload = _ => {
+     applyStyleSheet(
+      localStorage.getItem("sheet")
+    );
 
   const pageName = getPageName();
 //   scrollSpy();
