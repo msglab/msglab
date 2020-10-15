@@ -153,7 +153,7 @@ function getPageName() {
 
 window.onload = _ => {
   applyStyleSheet(
-    localStorage.getItem("sheet") || "/css/dark.css"
+    localStorage.getItem("sheet")
   );
   const pageName = getPageName();
   scrollSpy();
