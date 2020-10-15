@@ -6,6 +6,12 @@ const NavBarConfig = {
         <li><a class="nav-link nav-item" href="#parts">parts</a></li>\
         <li><a class="nav-link nav-item" href="#software">software</a></li>\
     ',
+
+    tools: '\
+    <li><a class="nav-link disabled nav-item" href="#" tabindex="-1" aria-disabled="true"></a> | </a></li>\
+    <li><a class="nav-link nav-item" href="#consumables">consumables</a></li>\
+    <li><a class="nav-link nav-item" href="#hardware">hardware</a></li>\
+    '
 }
 
 export { NavBarConfig }
