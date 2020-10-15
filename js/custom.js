@@ -26,7 +26,7 @@ function createExternalStyleSheetLink(cssLinkId, href) {
 }
  */
 function applyStyleSheet(sheet) {
-  console.log( sheet )
+  console.log(sheet)
   document.getElementById('themeToggle').setAttribute('href', sheet);
   localStorage.setItem("sheet", sheet);
   if (window.location.href == "https://msglab.co/index" || window.location.href == "https://msglab.co/") {
@@ -141,7 +141,7 @@ function navigationBar(pageName) {
   document.getElementById('dark-theme-toggle').onclick = swapStyleSheet;
 
 }
- 
+
 function getPageName() {
   var pageName = location.pathname.split('/').pop()
   pageName = pageName.split(".").shift()
@@ -149,12 +149,12 @@ function getPageName() {
 }
 
 window.onload = _ => {
-     applyStyleSheet(
-      localStorage.getItem("sheet")
-    );
+  applyStyleSheet(
+    localStorage.getItem("sheet")
+  );
 
   const pageName = getPageName();
-//   scrollSpy();
+  scrollSpy();
   navigationBar(pageName);
 
 }
