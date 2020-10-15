@@ -26,7 +26,6 @@ function createExternalStyleSheetLink(cssLinkId, href) {
 }
  */
 function applyStyleSheet(sheet) {
-  console.log(sheet)
   document.getElementById('themeToggle').setAttribute('href', sheet);
   localStorage.setItem("sheet", sheet);
   if (window.location.href == "https://msglab.co/index" || window.location.href == "https://msglab.co/") {
