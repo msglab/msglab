@@ -129,9 +129,8 @@ function navigationBar(pageName) {
     +
     '</ul>\
     </div>\
-    <ul class="navbar-nav mr-auto">\
-        <button type="button" class="btn btn-outline-dark" style="position: absolute;\
-        right: 15px; top:6.5px;"  id="dark-theme-toggle">\
+    <ul class="navbar-nav mr-auto .navbar-right">\
+        <button type="button" class="btn btn-outline-dark" id="dark-theme-toggle">\
           <img src="/img/bootstrap-icons/circle-half.svg" alt="" width="24" height="24" title="dark-mode-toggle">\
         </button>\
       </ul>\
@@ -141,6 +140,9 @@ function navigationBar(pageName) {
 
 }
 
+/* style="position: absolute;\
+        right: 15px; top:8px;"
+ */
 function getPageName() {
 
   var pageName = location.pathname.split('/').pop()
