@@ -146,8 +146,14 @@ function getPageName() {
   var pageName = location.pathname.split('/').pop()
   pageName = pageName.split(".").shift()
   return pageName;
-
 }
+
+function js_Load() {
+  console.log( 'msg' )
+
+  document.body.style.visibility='visible';
+} 
+
 
 window.onload = _ => {
   applyStyleSheet(
