@@ -95,7 +95,16 @@ function scrollSpy() {
   })
 }
 
-function navigationBar() {
+function navigationBar(pageName) {
+  console.log(pageName);
+  var menuOptions = NavBarConfig[pageName];
+
+  if (menuOptions !== undefined) {
+    var extraMenu = NavBarConfig[pageName];
+  } else {
+    var extraMenu = "";
+  }
+
   var navigationBarCode = '\
    <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark">\
     <a class="navbar-brand" href="/index">msg lab</a>\
@@ -115,7 +124,8 @@ function navigationBar() {
           <a class="nav-link" href="/html/skunkW">skunkW</a>\
         </li>'
     +
-    NavBarConfig.msg
+    extraMenu
+
     +
     '</ul>\
     </div>\
@@ -133,14 +143,18 @@ function navigationBar() {
 
 function getPageName() {
 
+  var pageName = location.pathname.split('/').pop()
+  pageName = pageName.split(".").shift()
+  return pageName;
+
 }
 
 window.onload = _ => {
-  getPageName();
+  const pageName = getPageName();
   scrollSpy();
   applyStyleSheet(
     localStorage.getItem("sheet") || "/css/dark.css"
   );
-  navigationBar();
+  navigationBar(pageName);
 
 }
