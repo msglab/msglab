@@ -57,10 +57,7 @@ function swapStyleSheet() {
   }
 }
 
-window.onload = _ => {
-  applyStyleSheet(
-    localStorage.getItem("sheet") || "/css/dark.css"
-  );
+function scrollSpy() {
   $(document).ready(function () {
     // Add smooth scrolling to all links in navbar + footer link
     $(".navbar a, footer a[href='#top']").on('click', function (event) {
@@ -95,4 +92,12 @@ window.onload = _ => {
       });
     });
   })
+}
+
+window.onload = _ => {
+  scrollSpy();
+  applyStyleSheet(
+    localStorage.getItem("sheet") || "/css/dark.css"
+  );
+
 }
