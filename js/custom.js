@@ -130,7 +130,8 @@ function navigationBar(pageName) {
     '</ul>\
     </div>\
     <ul class="navbar-nav mr-auto">\
-        <button type="button" class="btn btn-outline-dark" style="float:right"  id="dark-theme-toggle">\
+        <button type="button" class="btn btn-outline-dark" style="position: absolute;\
+        right: 15px; top:6.5px;"  id="dark-theme-toggle">\
           <img src="/img/bootstrap-icons/circle-half.svg" alt="" width="24" height="24" title="dark-mode-toggle">\
         </button>\
       </ul>\
