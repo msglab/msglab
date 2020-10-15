@@ -1,3 +1,4 @@
+import { NavBarConfig } from '/js/config.js';
 
 /* function enableStylesheet(node) {
   node.rel = 'stylesheet';
@@ -112,8 +113,11 @@ function navigationBar() {
         </li>\
         <li class="nav-item">\
           <a class="nav-link" href="/html/skunkW">skunkW</a>\
-        </li>\
-      </ul>\
+        </li>'
+    +
+    NavBarConfig.msg
+    +
+    '</ul>\
     </div>\
     <ul class="navbar-nav mr-auto text-right">\
         <button type="button" class="btn btn-outline-dark" onclick="swapStyleSheet()">\
@@ -122,7 +126,7 @@ function navigationBar() {
       </ul>\
   </nav>\
 '
-document.getElementById('topBarNav').innerHTML = navigationBarCode;
+  document.getElementById('topBarNav').innerHTML = navigationBarCode;
 }
 
 window.onload = _ => {
