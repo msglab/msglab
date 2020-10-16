@@ -3,6 +3,8 @@ body {
   font-family: 'IBM Plex Sans', sans-serif;
   line-height: 1;
   text-align: left;
+  color:  #d4d9e4;
+  background-color:#29292b;
 }
 
 .navbar {
