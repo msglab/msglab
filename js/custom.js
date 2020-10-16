@@ -106,7 +106,7 @@ function navigationBar(pageName) {
 
   var navigationBarCode = '\
    <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark">\
-    <a class="navbar-brand" href="/index">msg lab</a>\
+    <a class="navbar-brand" href="https://msglab.co">msg lab</a>\
     <button class="navbar-toggler" style="position: absolute; right: 70px; top:8px;"\
     type="button" data-toggle="collapse" data-target="#navbarCollapse"\
       aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">\
