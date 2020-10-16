@@ -148,12 +148,12 @@ function getPageName() {
 }
 
 window.onload = _ => {
+  const pageName = getPageName();
+  navigationBar(pageName);
   applyStyleSheet(
     localStorage.getItem("sheet")
   );
 
-  const pageName = getPageName();
   scrollSpy();
-  navigationBar(pageName);
 
 }
