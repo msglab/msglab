@@ -1,26 +1,11 @@
-### Hi there 👋
+MSG Lab - GitHub
+=============
 
-<!--
-**msglab/msglab** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on indexing my projects and creating an archive
-- 🌱 I’m currently learning how to put together a site
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
 Thanks for checking my Git!
 I am a DIY hobbyist assembling cyberdecks and electronics on my spare time.
 I do most of my loogin on my site: <https://www.msglab.co>, but I plan on using this Git to share code I use to power some of my creations.
 
-Examples:
-
-.. image:: https://nars-bucket.s3.amazonaws.com/msg_light_a9d6b3090c.png
+<!-- .. image:: https://nars-bucket.s3.amazonaws.com/msg_light_a9d6b3090c.png -->
 
 .. image:: https://nars-bucket.s3.amazonaws.com/msg_dark_3efdec5da7.png
 
