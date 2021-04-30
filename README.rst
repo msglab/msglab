@@ -4,6 +4,11 @@ MSG Lab
 
 |Build Status| |Doc Status| |License| |Discord| |Weblate|
 
+**Warnings**
+The code is provided as is, it is not of any quality and it consists mainly of mash ups of the examples provided by the part vendors.
+Use it as your own risk. Also, I am only providing the files I modified. You will need to download all the dependencies and libraries
+from the pages of the vendors.
+
 `msglab.co <https://msglab.co>`__ \| `MSG Cyberdeck <#msg-cyberdeck>`__ \|
 `LoRa MSG <#lora-msg>`__
 
@@ -12,7 +17,10 @@ MSG Cyberdeck
 
 The MSG Cyberdeck `msglab.co/room/msg-background <https://msglab.co/room/msg-background>`_ is a deck with enough tricks under the hood to be your daily driver for computing,
 hacking, learning and experimenting. Since it is a 3D printed DIY build, repairs and upgrades are core
-to the MSG capabilities. 
+to the MSG capabilities.
+
+The MSG uses some Python to run the eInk screen, which displays the logo on top and a few stats on the bottom: Pi temperature, battery level, voltage and time.
+It also uses a bit of code to run the MicroDot Phat. All the code can be found in the MSG Cyberdeck folder in this repo.
 
 LoRa MSG
 ------------------
