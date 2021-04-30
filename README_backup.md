@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 -->
 Thanks for checking my Git!
 I am a DIY hobbyist assembling cyberdecks and electronics on my spare time.
-I do most of my loogin on my site: www.msglab.co, but I plan on using this Git to share code I use to power some of my creations.
+I do most of my loogin on my site: <https://www.msglab.co>, but I plan on using this Git to share code I use to power some of my creations.
 
 Examples:
 
@@ -43,3 +43,17 @@ Examples:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
+
+
+`Back to Top <#circuitpython>`__
+
+.. |Build Status| image:: https://github.com/adafruit/circuitpython/workflows/Build%20CI/badge.svg
+   :target: https://github.com/adafruit/circuitpython/actions?query=branch%3Amain
+.. |Doc Status| image:: https://readthedocs.org/projects/circuitpython/badge/?version=latest
+   :target: http://circuitpython.readthedocs.io/
+.. |Discord| image:: https://img.shields.io/discord/327254708534116352.svg
+   :target: https://adafru.it/discord
+.. |License| image:: https://img.shields.io/badge/License-MIT-brightgreen.svg
+   :target: https://choosealicense.com/licenses/mit/
+.. |Weblate| image:: https://hosted.weblate.org/widgets/circuitpython/-/svg-badge.svg
+   :target: https://hosted.weblate.org/engage/circuitpython/?utm_source=widget
