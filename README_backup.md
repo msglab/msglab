@@ -22,7 +22,7 @@ Examples:
 
 .. image:: https://nars-bucket.s3.amazonaws.com/msg_light_a9d6b3090c.png
 
-|Build Status| |Doc Status| |License| |Discord| |Weblate|
+|MSG Cyberdeck| |LORA MSG| |License| |Discord| |Weblate|
 
 `circuitpython.org <https://circuitpython.org>`__ \| `Get CircuitPython <#get-circuitpython>`__ \|
 `Documentation <#documentation>`__ \| `Contributing <#contributing>`__ \|
