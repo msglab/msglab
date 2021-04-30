@@ -7,6 +7,14 @@ MSG Lab
 `msglab.co <https://msglab.co>`__ \| `MSG Cyberdeck <#msg-cyberdeck>`__ \|
 `LoRa MSG <#lora-msg>`__
 
+Intro
+------------------
+Thanks for checking my Git!
+I am a DIY hobbyist assembling cyberdecks and electronics on my spare time.
+I do most of my project loogging on my site: <https://www.msglab.co>, but I plan on using this Git to share code I
+use to power some of my creations.
+
+
 **Warning**
 ------------------
 The code is provided as is, it is not of any quality and it consists mainly of mash ups of the examples provided by the part vendors.
@@ -26,15 +34,12 @@ It also uses a bit of code to run the MicroDot Phat. All the code can be found i
 LoRa MSG
 ------------------
 
-Official binaries for all supported boards are available through
-`circuitpython.org/downloads <https://circuitpython.org/downloads>`_. The site includes stable, unstable and
-continuous builds. Full release notes and assets are available through
-`GitHub releases <https://github.com/adafruit/circuitpython/releases>`_ as well.
+LoRa MSG
 
-
-Thanks for checking my Git!
-I am a DIY hobbyist assembling cyberdecks and electronics on my spare time.
-I do most of my project loogging on my site: <https://www.msglab.co>, but I plan on using this Git to share code I use to power some of my creations.
+LoRa MSG information page: `https://msglab.co/room/lo-ra-msg <https://msglab.co/room/lo-ra-msg>`_ 
+Since I learned about LoRa I was curious about getting a communicator. I always liked walkie-talkies, and given that
+I go camping a few times a year, having the ability to communicate in remote areas with people nearby would be handy. With that as my motivation I started to explore
+the ways to leverage LoRa devices to put together a communicator tool.
 
 
 `Back to Top <#msg-lab>`__
