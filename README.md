@@ -20,6 +20,15 @@ I do most of my loogin on my site: www.msglab.co, but I plan on using this Git t
 
 Examples:
 
+.. image:: https://s3.amazonaws.com/adafruit-circuit-python/CircuitPython_Repo_header_logo.png
+
+|Build Status| |Doc Status| |License| |Discord| |Weblate|
+
+`circuitpython.org <https://circuitpython.org>`__ \| `Get CircuitPython <#get-circuitpython>`__ \|
+`Documentation <#documentation>`__ \| `Contributing <#contributing>`__ \|
+`Branding <#branding>`__ \| `Differences from Micropython <#differences-from-micropython>`__ \|
+`Project Structure <#project-structure>`__
+
 - Code used for the MSG Cyberdeck:  
 
 - Code used for the Lora MSG:
