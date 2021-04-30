@@ -22,6 +22,8 @@ Examples:
 
 .. image:: https://nars-bucket.s3.amazonaws.com/msg_light_a9d6b3090c.png
 
+.. image:: https://nars-bucket.s3.amazonaws.com/msg_dark_3efdec5da7.png
+
 |MSG Cyberdeck| |LORA MSG| |License| |Discord| |Weblate|
 
 `circuitpython.org <https://circuitpython.org>`__ \| `Get CircuitPython <#get-circuitpython>`__ \|
