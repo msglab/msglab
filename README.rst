@@ -27,17 +27,18 @@ hacking, learning and experimenting. Since it is a 3D printed DIY build, repairs
 to the MSG capabilities.
 
 The MSG uses some Python to run the eInk screen, which displays the logo on top and a few stats on the bottom: Pi temperature, battery level, voltage and time.
-It also uses a bit of code to run the MicroDot Phat. All the code can be found in the MSG Cyberdeck folder in this repo.
+It also uses a bit of code to run the MicroDot Phat. All the code can be found in the `MSG Cyberdeck folder <https://github.com/msglab/msglab/tree/main/MSG-Cyberdeck>`__ of this repo.
 
 LoRa MSG
 ------------------
 
-LoRa MSG
-
-LoRa MSG information page: `https://msglab.co/room/lo-ra-msg <https://msglab.co/room/lo-ra-msg>`_ 
+LoRa MSG information page: `https://msglab.co/room/lo-ra-msg <https://msglab.co/room/lo-ra-msg>`_. 
 Since I learned about LoRa I was curious about getting a communicator. I always liked walkie-talkies, and given that
 I go camping a few times a year, having the ability to communicate in remote areas with people nearby would be handy. With that as my motivation I started to explore
 the ways to leverage LoRa devices to put together a communicator tool.
+
+The current version of the LoRa MSG uses CircuitPython, I am working on an Arduino version that should be more capable. In the meantime, the code can be found in the `LoRa MSG folder 
+<https://github.com/msglab/msglab/tree/main/LoRA-MSG>`__ of this repo.
 
 
 `Back to Top <#msg-lab>`__
