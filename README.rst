@@ -4,13 +4,14 @@ MSG Lab
 
 |Build Status| |Doc Status| |License| |Discord| |Weblate|
 
-**Warnings**
+`msglab.co <https://msglab.co>`__ \| `MSG Cyberdeck <#msg-cyberdeck>`__ \|
+`LoRa MSG <#lora-msg>`__
+
+**Warning**
+------------------
 The code is provided as is, it is not of any quality and it consists mainly of mash ups of the examples provided by the part vendors.
 Use it as your own risk. Also, I am only providing the files I modified. You will need to download all the dependencies and libraries
 from the pages of the vendors.
-
-`msglab.co <https://msglab.co>`__ \| `MSG Cyberdeck <#msg-cyberdeck>`__ \|
-`LoRa MSG <#lora-msg>`__
 
 MSG Cyberdeck
 ------------------
