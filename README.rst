@@ -1,12 +1,5 @@
 MSG Lab - GitHub
 =============
-
-Thanks for checking my Git!
-I am a DIY hobbyist assembling cyberdecks and electronics on my spare time.
-I do most of my loogin on my site: <https://www.msglab.co>, but I plan on using this Git to share code I use to power some of my creations.
-
-<!-- .. image:: https://nars-bucket.s3.amazonaws.com/msg_light_a9d6b3090c.png -->
-
 .. image:: https://nars-bucket.s3.amazonaws.com/msg_dark_3efdec5da7.png
 
 |MSG Cyberdeck| |LORA MSG| |License| |Discord| |Weblate|
@@ -16,20 +9,15 @@ I do most of my loogin on my site: <https://www.msglab.co>, but I plan on using 
 `Branding <#branding>`__ \| `Differences from Micropython <#differences-from-micropython>`__ \|
 `Project Structure <#project-structure>`__
 
+
+Thanks for checking my Git!
+I am a DIY hobbyist assembling cyberdecks and electronics on my spare time.
+I do most of my project loogging on my site: <https://www.msglab.co>, but I plan on using this Git to share code I use to power some of my creations.
+
 - Code used for the MSG Cyberdeck:  
 
 - Code used for the Lora MSG:
 
-
-
-- 🔭 I’m currently working on indexing my projects and creating an archive
-- 🌱 I’m currently learning how to put together a site
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
 
 
 `Back to Top <#circuitpython>`__
