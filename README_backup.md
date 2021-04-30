@@ -20,7 +20,7 @@ I do most of my loogin on my site: www.msglab.co, but I plan on using this Git t
 
 Examples:
 
-.. image:: https://s3.amazonaws.com/adafruit-circuit-python/CircuitPython_Repo_header_logo.png
+.. image:: https://nars-bucket.s3.amazonaws.com/msg_light_a9d6b3090c.png
 
 |Build Status| |Doc Status| |License| |Discord| |Weblate|
 
