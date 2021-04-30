@@ -2,9 +2,9 @@ MSG Lab - GitHub
 =============
 .. image:: https://nars-bucket.s3.amazonaws.com/msg_dark_3efdec5da7.png
 
-|MSG Cyberdeck| |LORA MSG| |License| |Discord| |Weblate|
+|Build Status| |Doc Status| |License| |Discord| |Weblate|
 
-`circuitpython.org <https://circuitpython.org>`__ \| `Get CircuitPython <#get-circuitpython>`__ \|
+`msglab.co <https://msglab.co>`__ \| `Get CircuitPython <#get-circuitpython>`__ \|
 `Documentation <#documentation>`__ \| `Contributing <#contributing>`__ \|
 `Branding <#branding>`__ \| `Differences from Micropython <#differences-from-micropython>`__ \|
 `Project Structure <#project-structure>`__
