@@ -10,10 +10,9 @@ MSG Lab
 MSG Cyberdeck
 ------------------
 
-Official binaries for all supported boards are available through
-`circuitpython.org/downloads <https://circuitpython.org/downloads>`_. The site includes stable, unstable and
-continuous builds. Full release notes and assets are available through
-`GitHub releases <https://github.com/adafruit/circuitpython/releases>`_ as well.
+The MSG Cyberdeck `msglab.co/room/msg-background <https://msglab.co/room/msg-background>`_ is a deck with enough tricks under the hood to be your daily driver for computing,
+hacking, learning and experimenting. Since it is a 3D printed DIY build, repairs and upgrades are core
+to the MSG capabilities. 
 
 LoRa MSG
 ------------------
