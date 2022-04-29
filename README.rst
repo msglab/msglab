@@ -22,7 +22,7 @@ from the pages of the vendors.
 MSG Cyberdeck
 ------------------
 
-The MSG Cyberdeck `msglab.co/room/msg-background <https://msglab.co/room/msg-background>`_ is a deck with enough tricks under the hood to be your daily driver for computing,
+The MSG Cyberdeck `https://www.msglab.co/project/msg-cyberdeck-v2 <https://www.msglab.co/project/msg-cyberdeck-v2>`_ is a deck with enough tricks under the hood to be your daily driver for computing,
 hacking, learning and experimenting. Since it is a 3D printed DIY build, repairs and upgrades are core
 to the MSG capabilities.
 
@@ -32,7 +32,7 @@ It also uses a bit of code to run the MicroDot Phat. All the code can be found i
 LoRa MSG
 ------------------
 
-LoRa MSG information page: `https://msglab.co/room/lo-ra-msg <https://msglab.co/room/lo-ra-msg>`_. 
+LoRa MSG information page: `https://www.msglab.co/project/lo-ra-msg <https://www.msglab.co/project/lo-ra-msg>`_. 
 Since I learned about LoRa I was curious about getting a communicator. I always liked walkie-talkies, and given that
 I go camping a few times a year, having the ability to communicate in remote areas with people nearby would be handy. With that as my motivation I started to explore
 the ways to leverage LoRa devices to put together a communicator tool.
